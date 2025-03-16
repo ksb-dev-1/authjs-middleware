@@ -58,5 +58,5 @@ export default auth(async function middleware(req: NextRequest) {
 });
 
 export const config = {
-  matcher: ["/questions/:path*", "/saved", "/profile", "/pricing"], // These routes require authentication
+  matcher: ["/products/:path*", "/saved", "/profile"], // These routes require authentication
 };

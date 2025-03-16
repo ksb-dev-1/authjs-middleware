@@ -18,7 +18,7 @@ export default function RootLayout({
       <body suppressHydrationWarning={true}>
         <Providers>
           <Navbar />
-          {children}
+          <main className="flex justify-center">{children}</main>
         </Providers>
       </body>
     </html>

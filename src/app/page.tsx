@@ -1,15 +1,11 @@
 import React from "react";
 
-import { userSignOut } from "@/actions/authActions";
-import AuthButton from "@/components/AuthButton";
+import Container from "@/components/Container";
 
 export default function HomePage() {
   return (
-    <div>
+    <Container>
       <p>Home Page</p>
-      <form action={userSignOut}>
-        <AuthButton text="Sign out" />
-      </form>
-    </div>
+    </Container>
   );
 }

@@ -1,3 +1,5 @@
+import Container from "@/components/Container";
+
 export default function SavedPage() {
-  return <div>Saved Page</div>;
+  return <Container>Saved Page</Container>;
 }
